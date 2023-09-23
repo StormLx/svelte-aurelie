@@ -24,6 +24,7 @@
 		"sass": "^1.68.0",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
+		"svelte-leafletjs": "^0.10.0",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
@@ -32,6 +33,7 @@
 	"dependencies": {
 		"@unsass/breakpoint": "^2.4.0",
 		"bootstrap": "^5.3.2",
+		"leaflet": "^1.9.4",
 		"lucide-svelte": "^0.279.0",
 		"modern-normalize": "^2.0.0"
 	}

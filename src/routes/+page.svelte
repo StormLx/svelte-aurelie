@@ -1,4 +1,7 @@
-
+<script>
+    import 'bootstrap/dist/css/bootstrap.min.css';
+    import '../styles/main.scss';
+</script>
 
 <section id="hero" class="d-flex align-items-center">
     <div class="container text-center text-lg-start">
