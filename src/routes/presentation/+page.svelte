@@ -59,83 +59,79 @@
 </section>
 
 <style lang="scss">
-    #presentation {
-        background-color: var(--white-color);
-        color: var(--primary-color-darker);
-        text-align: justify;
-        display: flex;
+  #presentation {
+    text-align: justify;
+    display: flex;
 
 
-        .left-section {
-            flex: 0.5;
-            padding: 20px;
-        }
-
-        .right-section {
-            flex: 0.5;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-
-            img {
-                overflow: hidden;
-                border-radius: 12px;
-                object-fit: cover;
-                width: 100%;
-                height: 100%;
-                max-width: 500px;
-                max-height: 800px;
-            }
-        }
-
-
-        .section-title h2 {
-            font-size: 14px;
-            font-weight: 600;
-            padding: 0;
-            line-height: 1px;
-            margin: 0 0 5px 0;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: var(--primary-color);
-        }
-
-        .section-title h2::after {
-            content: "";
-            width: 120px;
-            height: 1px;
-            display: inline-block;
-            background: var(--primary-color-darker);
-            margin: 4px 10px;
-        }
-
-        .section-title p {
-            margin: 0;
-            margin: 0;
-            font-size: 36px;
-            font-weight: 700;
-            color: var(--primary-color-darker);
-        }
-
-        p {
-            font-weight: 500;
-        }
-
-        h2 {
-            padding: 0;
-            margin: 0;
-        }
-
+    .left-section {
+      flex: 0.5;
+      padding: 20px;
     }
 
-    @media (max-width: 868px) {
-      .presentation {
-        display: block;
-        .right-section {
-          display: none;
-        }
+    .right-section {
+      flex: 0.5;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      img {
+        overflow: hidden;
+        border-radius: 12px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        max-width: 500px;
+        max-height: 800px;
       }
     }
+
+
+    .section-title h2 {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 0;
+      line-height: 1px;
+      margin: 0 0 5px 0;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .section-title h2::after {
+      content: "";
+      width: 120px;
+      height: 1px;
+      display: inline-block;
+      margin: 4px 10px;
+    }
+
+    .section-title p {
+      margin: 0;
+      margin: 0;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 500;
+    }
+
+    h2 {
+      padding: 0;
+      margin: 0;
+    }
+
+  }
+
+  @media (max-width: 868px) {
+    .presentation {
+      display: block;
+
+      .right-section {
+        display: none;
+      }
+    }
+  }
 
 </style>

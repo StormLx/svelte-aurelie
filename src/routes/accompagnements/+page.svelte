@@ -101,7 +101,7 @@
 </section>
 
 <style>
-    #accompagnements {
+    section {
         background-color: var(--primary-color);
         color: var(--white-color);
         text-align: justify;

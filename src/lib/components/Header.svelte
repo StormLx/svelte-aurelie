@@ -17,7 +17,7 @@
                 <li><a class="nav-link scrollto" href="/presentation">Présentation</a></li>
                 <li><a class="nav-link scrollto" href="/accompagnements">Mes accompagnements</a></li>
                 <li><a class="nav-link scrollto" href="/pourquoi">Pour quoi, pour qui</a></li>
-                <li><a class="nav-link scrollto" href="/seances">Les séances</a></li>
+                <li><a class="nav-link scrollto" href="/">Les séances</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
