@@ -1,7 +1,3 @@
-<script>
-    import 'bootstrap/dist/css/bootstrap.min.css';
-    import '../styles/main.scss';
-</script>
 
 <section id="hero" class="d-flex align-items-center">
     <div class="container text-center text-lg-start">
@@ -9,8 +5,8 @@
             <div class="col-lg-7 hero-title">
                 <h1>Aurélie <span>Millet</span></h1>
                 <div class="btns">
-                    <a href="#presentation" class="btn-menu">Présentation</a>
-                    <a href="#contact" class="btn-book">Contact</a>
+                    <a href="/presentation" class="btn-menu">Présentation</a>
+                    <a href="/contact" class="btn-book">Contact</a>
                 </div>
             </div>
 

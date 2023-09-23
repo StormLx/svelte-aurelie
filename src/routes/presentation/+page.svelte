@@ -1,6 +1,6 @@
 <script>
     import img from '$lib/assets/lily.jpg';
-    import { Award } from 'lucide-svelte';
+    import { Award, GraduationCap } from 'lucide-svelte';
 </script>
 
 <section id="presentation" class="presentation p-5">
@@ -11,7 +11,7 @@
                 <p>En quelques mots</p>
             </div>
             <p>
-                <strong>Psychologue clinicienne, Praticienne EFT & Conseillère en produits de soins naturels</strong>
+                <strong style="color: var(--secondary-color);">Psychologue clinicienne, Praticienne EFT & Conseillère en produits de soins naturels</strong>
                 <br><br>
                 Issue de l’Université Toulouse II, j'ai initialement orienté ma pratique clinique vers la psychologie
                 clinique du vieillissement et la neuropsychologie. Ma curiosité professionnelle m’a amenée à explorer
@@ -47,26 +47,26 @@
             permet de vous suggérer des solutions naturelles pour des problématiques courantes telles que l'anxiété, le
             stress ou les troubles du sommeil...
         </p>
-        <h2 class="my-4"><i class="bi bi-card-list"></i> Diplômes</h2>
+        <h2 class="my-4"><i class="bi bi-card-list"></i> <GraduationCap /> Diplômes</h2>
         <ul>
             <li>
-                <Award/>
+                <Award style="color: var(--secondary-color);"/>
                 2023: Certification EFT (Emotional Freedom Technique)
             </li>
             <li>
-                <Award/>
+                <Award style="color: var(--secondary-color);"/>
                 2022: Certification de Conseiller en Produits de Soins Naturels
             </li>
             <li>
-                <Award/>
+                <Award style="color: var(--secondary-color);"/>
                 2016: DU de Soins Palliatifs
             </li>
             <li>
-                <Award/>
+                <Award style="color: var(--secondary-color);"/>
                 2013: Master de Psychologie clinique et Gérontologie
             </li>
             <li>
-                <Award/>
+                <Award style="color: var(--secondary-color);"/>
                 2012: DU de Neuropsychologie
             </li>
         </ul>
@@ -113,6 +113,10 @@
       padding: 20px;
       width: 100%;
       max-width: 1100px;
+    }
+
+    h2 {
+      color: var(--secondary-color);
     }
 
   }
