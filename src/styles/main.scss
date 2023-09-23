@@ -1,0 +1,39 @@
+:root {
+  /* Original Colors */
+  --primary-color: #102c38;
+  --secondary-color: #c49c48;
+
+  /* Darker Versions */
+  --primary-color-darker: #091d21;
+  --secondary-color-darker: #f4c543;
+
+  /* Lighter Versions */
+  --primary-color-lighter: #1A3B4A;
+  --secondary-color-lighter: #E9CC8E;
+
+  --white-color: #F8F8F8;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary-color);
+  height: 100vh;
+  color: var(--white-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: var(--secondary-color-lighter);
+  text-decoration: none;
+}
+
+li, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
