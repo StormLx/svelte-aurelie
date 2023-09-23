@@ -62,3 +62,11 @@ li, ul {
     color: var(--white-color);
   }
 }
+
+// For mobiles all text should be aligned center
+@media (max-width: 768px) {
+  * {
+    text-align: left;
+  }
+}
+
