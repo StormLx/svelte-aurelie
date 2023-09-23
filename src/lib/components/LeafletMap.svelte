@@ -36,8 +36,7 @@
     <div bind:this={mapElement}></div>
 </main>
 
-<style>
-    @import 'leaflet/dist/leaflet.css';
+<style lang="scss">
     main div {
         height: 400px;
     }
