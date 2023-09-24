@@ -1,5 +1,5 @@
 <script>
-    import img from '$lib/assets/lily.jpg';
+    import img from '$lib/assets/lily.webp';
     import { Award, GraduationCap } from 'lucide-svelte';
 </script>
 
@@ -7,7 +7,7 @@
     <div class="upper-section">
         <div class="left-section">
             <div class="section-title">
-                <h2><i class="bi bi-person-circle"></i> Présentation</h2>
+                <h2>Présentation</h2>
                 <p>En quelques mots</p>
             </div>
             <p>
