@@ -72,13 +72,19 @@
 </section>
 
 <style lang="scss">
+  @use '@unsass/breakpoint';
   .pourquoi {
     color: var(--white-color);
-    padding: 20px;
+    @include breakpoint.down('md') {
+      padding: 20px !important;
+    }
 
     .content {
       width: 70%;
       margin: 0 auto;
+      @include breakpoint.down('md') {
+        width: 100%;
+      }
     }
 
     .section-title {

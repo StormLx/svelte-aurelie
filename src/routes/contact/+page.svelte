@@ -69,7 +69,9 @@
 
   .page-section {
     color: var(--white-color);
-    padding: 20px;
+    @include breakpoint.down('md') {
+      padding: 20px !important;
+    }
     height: auto;
 
 

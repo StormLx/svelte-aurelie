@@ -3,7 +3,6 @@
 </script>
 
 
-
 <section id="accompagnements" class="hero accompagnement p-5">
 
     <div class="content">
@@ -146,15 +145,22 @@
 </section>
 
 <style lang="scss">
+  @use '@unsass/breakpoint';
+
   .accompagnement {
     text-align: justify;
-    padding: 20px;
+    @include breakpoint.down('md') {
+      padding: 20px !important;
+    }
     color: var(--white-color);
     margin: auto;
 
     .content {
       width: 70%;
       margin: 0 auto;
+      @include breakpoint.down('md') {
+        width: 100%;
+      }
     }
 
     .section-title {
