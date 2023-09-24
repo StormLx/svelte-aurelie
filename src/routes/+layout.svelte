@@ -5,6 +5,12 @@
     import 'leaflet/dist/leaflet.css';
 </script>
 
+<svelte:head>
+    <title>Aurélie Millet Psychologue</title>
+    <meta name="description" content="Psychologue clinicienne, je vous accueille dans mon cabinet pour des consultations individuelles, familiales ou de couple.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</svelte:head>
+
 <!-- Header -->
 <Header/>
 
