@@ -22,10 +22,22 @@
             <p>Franchir le pas pour consulter un psychologue n'est pas toujours facile à réaliser. Au cours d'une vie,
                 il existe de nombreuses raisons de rencontrer un psychologue...</p>
             <ul class="mb-3">
-                <li><MoveRight class="me-2"/>Gestion émotionnelle</li>
-                <li><MoveRight class="me-2"/>Conflits familiaux ou relationnels</li>
-                <li><MoveRight class="me-2"/>Maladies, deuils, séparations</li>
-                <li><MoveRight class="me-2"/>Stress, anxiété, dépression</li>
+                <li>
+                    <MoveRight class="me-2"/>
+                    Gestion émotionnelle
+                </li>
+                <li>
+                    <MoveRight class="me-2"/>
+                    Conflits familiaux ou relationnels
+                </li>
+                <li>
+                    <MoveRight class="me-2"/>
+                    Maladies, deuils, séparations
+                </li>
+                <li>
+                    <MoveRight class="me-2"/>
+                    Stress, anxiété, dépression
+                </li>
             </ul>
             <p>Et cela concerne tous les âges de la vie.</p>
         </div>
@@ -37,12 +49,21 @@
             </h3>
             <p>Je peux accueillir toute personne qui en fait la demande. N'hésitez pas à me contacter afin que l'on
                 puisse échanger sur votre demande et vos besoins.</p>
-                <ul class="mb-3">
-                    <li><MoveRight class="me-2"/>Enfants, Adolescents, Adultes</li>
-                    <li><MoveRight class="me-2"/>Aidants naturels</li>
-                    <li><MoveRight class="me-2"/>Personnes âgées ou souffrant d’une pathologie invalidante</li>
-                </ul>
-                <p>Frais supplémentaires de déplacement : 5€</p>
+            <ul class="mb-3">
+                <li>
+                    <MoveRight class="me-2"/>
+                    Enfants, Adolescents, Adultes
+                </li>
+                <li>
+                    <MoveRight class="me-2"/>
+                    Aidants naturels
+                </li>
+                <li>
+                    <MoveRight class="me-2"/>
+                    Personnes âgées ou souffrant d’une pathologie invalidante
+                </li>
+            </ul>
+            <p>Frais supplémentaires de déplacement : 5€</p>
         </div>
     </div>
 </section>
@@ -71,10 +92,6 @@
           align-items: center;
           gap: 10px;
           color: var(--secondary-color);
-        }
-
-        details {
-          margin-top: 10px;
         }
 
         ul {
