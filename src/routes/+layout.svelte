@@ -8,6 +8,7 @@
 
 <svelte:head>
     <title>Aurélie Millet Psychologue</title>
+    <meta name="google-site-verification" content="Q1_rzr89OimaKMzUo8mWU1jXIkq3HdoO-Xc6e1tBpHg" />
     <meta name="description" content="Psychologue clinicienne, je vous accueille dans mon cabinet pour des consultations individuelles, familiales ou de couple.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </svelte:head>
