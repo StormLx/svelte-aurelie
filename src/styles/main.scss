@@ -77,6 +77,7 @@ li, ul {
   position: relative;
   padding: 0;
   overflow: hidden;
+  min-height: calc(100vh - 80px);
   &::before {
     content: '';
     position: absolute;

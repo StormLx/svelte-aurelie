@@ -20,7 +20,7 @@
 
   .home {
     width: 100%;
-    height: calc(100vh - 72px);
+    height: calc(100vh - 80px);
     position: relative;
     padding: 0;
     overflow: hidden;
