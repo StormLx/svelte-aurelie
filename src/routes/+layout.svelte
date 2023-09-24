@@ -3,6 +3,7 @@
     import '../styles/main.scss';
     import Header from "$lib/components/Header.svelte";
     import 'leaflet/dist/leaflet.css';
+    import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <svelte:head>
@@ -16,3 +17,6 @@
 
 <!-- Main content-->
 <slot/>
+
+<!-- Footer -->
+<Footer/>
