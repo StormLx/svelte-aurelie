@@ -46,6 +46,6 @@
 
 <style lang="scss">
     main div {
-        height: 400px;
+        height: 500px;
     }
 </style>
