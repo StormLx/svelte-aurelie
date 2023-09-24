@@ -5,7 +5,7 @@
 
 </script>
 
-<section class="page-section p-5">
+<section class="hero page-section p-5">
     <div class="section-title">
         <h2>Les séances</h2>
     </div>
@@ -43,7 +43,7 @@
     <div class="card">
         <h3>
             <Phone/>
-             Pour prendre RDV
+            Pour prendre RDV
         </h3>
         <p>Par téléphone: 07 81 04 28 18</p>
         <p>
@@ -65,11 +65,17 @@
 
 <style lang="scss">
 
+  @use '@unsass/breakpoint';
+
   .page-section {
     color: var(--white-color);
     padding: 20px;
+    height: auto;
+
 
     .section-title {
+      width: 70%;
+      margin: 10px auto;
       h2 {
         color: var(--secondary-color);
         font-size: 2rem;
@@ -80,6 +86,9 @@
         font-size: 1.25rem;
         margin-bottom: 20px;
       }
+      @include breakpoint.down('md') {
+        width: 100%;
+      }
     }
 
     .card {
@@ -88,7 +97,11 @@
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
+      width: 70%;
+      margin: 10px auto;
+      @include breakpoint.down('md') {
+        width: 100%;
+      }
 
       h3 {
         display: flex;

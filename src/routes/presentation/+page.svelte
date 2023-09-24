@@ -3,7 +3,7 @@
     import { Award, GraduationCap } from 'lucide-svelte';
 </script>
 
-<section id="presentation" class="presentation p-5">
+<section id="presentation" class="presentation hero p-5">
     <div class="upper-section">
         <div class="left-section">
             <div class="section-title">
@@ -74,6 +74,8 @@
 </section>
 
 <style lang="scss">
+
+
   #presentation {
     text-align: justify;
     display: flex;

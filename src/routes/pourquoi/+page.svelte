@@ -2,15 +2,17 @@
     import { HeartHandshake, Users, MoveRight } from 'lucide-svelte';
 </script>
 
-<div class="section-title p-5">
-    <h2>
 
-        Pourquoi ? Pour qui ?
-    </h2>
-    <p>Les explications</p>
-</div>
 
-<section class="pourquoi p-5">
+<section class="pourquoi hero p-5">
+<div class="content">
+
+    <div class="section-title">
+        <h2>
+            Pourquoi ? Pour qui ?
+        </h2>
+        <p>Les explications</p>
+    </div>
 
 
     <div class="content-section">
@@ -66,13 +68,18 @@
             <p>Frais supplémentaires de déplacement : 5€</p>
         </div>
     </div>
+</div>
 </section>
 
 <style lang="scss">
   .pourquoi {
-    background-color: var(--primary-color-lighter);
     color: var(--white-color);
     padding: 20px;
+
+    .content {
+      width: 70%;
+      margin: 0 auto;
+    }
 
     .section-title {
       h2 {
