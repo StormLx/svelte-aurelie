@@ -4,7 +4,7 @@
             <div class="col-sm-12 col-lg-7 hero-title d-flex justify-content-center">
                 <h1 class="text-center">Aurélie <span>Millet</span></h1>
                 <div class="btns text-center">
-                    <a href="/presentation" class="btn-menu">Présention</a>
+                    <a href="/presentation" class="btn-menu">Présentation</a>
                     <a href="/contact" class="btn-book">Contact</a>
                 </div>
             </div>
