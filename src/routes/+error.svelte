@@ -1,7 +1,3 @@
-<script>
-    import { page } from '$app/stores';
-</script>
-
 <div class="mt-5">
     <h1>OUPS !</h1>
     <p>Cette page n'existe pas.</p>
