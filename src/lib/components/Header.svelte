@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item" class:active={path === '/'}><a class="nav-link" href="/">Accueil</a></li>
-<!--                <li class="nav-item" class:active={path === '/presentation'}><a class="nav-link" href="/presentation">Présentation</a></li>-->
+                <li class="nav-item" class:active={path === '/presentation'}><a class="nav-link" href="/presentation">Présentation</a></li>
                 <li class="nav-item" class:active={path === '/accompagnements'}><a class="nav-link" href="/accompagnements">Mes accompagnements</a></li>
                 <li class="nav-item" class:active={path === '/pourquoi'}><a class="nav-link" href="/pourquoi">Pour quoi, pour qui</a></li>
                 <li class="nav-item" class:active={path === '/contact'}><a class="nav-link" href="/contact">Tarif & Contact</a></li>
