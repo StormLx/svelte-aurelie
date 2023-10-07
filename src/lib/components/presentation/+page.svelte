@@ -74,7 +74,7 @@
 </section>
 
 <style lang="scss">
-  @use '@unsass/breakpoint';
+  @use '../../../../node_modules/@unsass/breakpoint/index';
 
   #presentation {
     text-align: justify;

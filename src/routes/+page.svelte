@@ -1,10 +1,10 @@
 <section id="hero" class="d-flex home align-items-center">
     <div class="container text-center text-lg-start">
         <div class="row">
-            <div class="col-lg-7 hero-title">
-                <h1>Aurélie <span>Millet</span></h1>
-                <div class="btns">
-                    <a href="/presentation" class="btn-menu">Présentation</a>
+            <div class="col-sm-12 col-lg-7 hero-title d-flex justify-content-center">
+                <h1 class="text-center">Aurélie <span>Millet</span></h1>
+                <div class="btns text-center">
+                    <a href="/accompagnements" class="btn-menu">Mes accompagnements</a>
                     <a href="/contact" class="btn-book">Contact</a>
                 </div>
             </div>
@@ -107,7 +107,7 @@
     bottom: 0;
     left: 0;
     background-image: url('$lib/assets/profil.jpg');
-    background-position: center;
+    background-position: top;
     background-size: cover;
     z-index: 2;
   }
