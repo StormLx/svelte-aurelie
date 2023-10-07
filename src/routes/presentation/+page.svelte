@@ -2,8 +2,8 @@
     import { Award, GraduationCap } from 'lucide-svelte';
 </script>
 
-<section id="presentation" class="hero presentation">
-    <div class="upper-section">
+<section id="presentation" class="hero presentation p-5">
+    <div class="content">
 
         <div class="section-title">
             <h2>Présentation</h2>
@@ -73,13 +73,26 @@
 </section>
 
 <style lang="scss">
+  @use '@unsass/breakpoint';
 
   #presentation {
     text-align: justify;
-    padding: 50px 255px;
+    @include breakpoint.down('md') {
+      padding: 20px !important;
+    }
+    color: var(--white-color);
+    margin: auto;
 
     h2 {
       color: var(--secondary-color);
+    }
+
+    .content {
+      width: 70%;
+      margin: 0 auto;
+      @include breakpoint.down('md') {
+        width: 100%;
+      }
     }
 
   }
@@ -90,7 +103,7 @@
     }
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     #presentation {
       padding: 50px 20px;
     }
