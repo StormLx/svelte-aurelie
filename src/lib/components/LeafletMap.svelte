@@ -26,7 +26,7 @@
             }).addTo(map);
 
             leaflet.marker([lat, long], { icon }).addTo(map)
-                .bindPopup('Aurélie Millet<br>Pôle Sante Via Venaissia.<br> 29, Av. du Onze Novembre, 84150 Jonquières.<br> ')
+                .bindPopup('Aurélie Millet<br>Pôle Sante Via Venaissia.<br> 29, Av. du Onze Novembre, 84150 Jonquières.<br> <a href="https://www.google.com/maps/dir//Aur%C3%A9lie+Millet,+P%C3%B4le+Sant%C3%A9+Via+Venaissia,+29+Av.+du+Onze+Novembre,+84150+Jonqui%C3%A8res/@44.1174921,4.9007188,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x12b58f40d961972b:0xad6fdf4877143e5c!2m2!1d4.9007188!2d44.1174921!3e0?entry=ttu" target="_blank">Lien vers l\'itinéraire Google Maps</a> ')
                 .openPopup();
         }
     });

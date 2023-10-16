@@ -2,7 +2,7 @@
 
 :root {
   /* Color Definitions */
-  --primary-color: #102c38;
+  --primary-color: #0B4256;
   --secondary-color: #c49c48;
   --primary-color-darker: #091d21;
   --secondary-color-darker: #a37e3b;
@@ -77,7 +77,7 @@ li, ul {
   position: relative;
   padding: 0;
   overflow: hidden;
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 130px);
   &::before {
     content: '';
     position: absolute;

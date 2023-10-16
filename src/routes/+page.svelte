@@ -1,8 +1,9 @@
 <section id="hero" class="d-flex home align-items-center">
     <div class="container text-center text-lg-start">
         <div class="row">
-            <div class="col-sm-12 col-lg-7 hero-title d-flex justify-content-center">
+            <div class="col-sm-12 col-lg-7 hero-title d-flex justify-content-center align-items-center">
                 <h1 class="text-center">Aurélie <span>Millet</span></h1>
+                <p>Psychologue clinicienne</p>
                 <div class="btns text-center">
                     <a href="/presentation" class="btn-menu">Présentation</a>
                     <a href="/contact" class="btn-book">Contact</a>
@@ -20,10 +21,16 @@
 
   .home {
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 130px);
     position: relative;
     padding: 0;
     overflow: hidden;
+
+  }
+
+  p {
+    font-size: 24px;
+    font-style: italic;
   }
 
   /* Background Image with Overlay */
@@ -34,7 +41,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('$lib/assets/hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('$lib/assets/hero.jpg');
     background-size: cover;
     z-index: -1;
   }

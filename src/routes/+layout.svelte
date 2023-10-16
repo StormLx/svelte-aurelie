@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <title>Aurélie Millet Psychologue</title>
+    <title>Aurélie Millet Psychologue Clinicienne</title>
     <meta name="google-site-verification" content="7Q5IzLVJUG6w_3lSr6f9vlWmpPzCL0AV35D0nHQH8M8" />
     <meta name="description" content="Psychologue clinicienne, je vous accueille dans mon cabinet pour des consultations individuelles, familiales ou de couple.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
