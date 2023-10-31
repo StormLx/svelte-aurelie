@@ -10,8 +10,7 @@
                 </div>
             </div>
 
-            <div class="round-img">
-            </div>
+            <div class="round-img"></div>
         </div>
     </div>
 </section>
@@ -140,6 +139,9 @@
   }
 
   @media (max-width: 992px) {
+    h1 {
+      font-size: 4rem !important;
+    }
     .home {
       display: flex;
       flex-direction: column;
@@ -151,24 +153,48 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 30px;
+      gap: 150px;
     }
 
     .home .round-img {
-      margin-top: 100px;
       height: 300px;
       width: 300px;
     }
+
+
   }
 
-  @media (max-height: 500px) {
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 3rem !important;
+    }
     .home {
-      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    .home .container {
-      padding-top: 130px;
-      padding-bottom: 60px;
+
+    .home .row {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 120px;
     }
+
+    .home .round-img {
+      height: 200px;
+      width: 200px;
+    }
+
+    .home .btns {
+      margin-top: 0;
+    }
+
   }
+
+
+
+
 </style>
 
