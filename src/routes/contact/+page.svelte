@@ -45,6 +45,13 @@
             <Phone/>
             Pour prendre RDV
         </h3>
+
+        <p>Ouverture du cabinet :</p>
+        <ul>
+            <li>Lundi 14h-18h30</li>
+            <li>Jeudi 9h-18h</li>
+        </ul>
+        <br>
         <p>Par téléphone: 07 81 04 28 18</p>
         <p>
             <Mail/>
@@ -78,6 +85,7 @@
     .section-title {
       width: 70%;
       margin: 10px auto;
+
       h2 {
         color: var(--secondary-color);
         font-size: 2rem;
@@ -88,6 +96,7 @@
         font-size: 1.25rem;
         margin-bottom: 20px;
       }
+
       @include breakpoint.down('md') {
         width: 100%;
       }

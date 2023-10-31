@@ -1,8 +1,5 @@
 <script>
-    import { BookMarked, Leaf, Cross, AlertTriangle } from 'lucide-svelte';
-    import eft from '$lib/assets/eft.jpg';
-    import soin from '$lib/assets/soin-naturel.jpg';
-    import soutien from '$lib/assets/soutien.png';
+    import { AlertTriangle, BookMarked, Cross, Leaf } from 'lucide-svelte';
 </script>
 
 
@@ -18,7 +15,7 @@
 
         <div class="content-section">
             <div class="content-block d-flex justify-content-center align-items-center gap-5">
-                <div class="side--text">
+                <div>
                     <h3>
                         <BookMarked/>
                         Consultations de soutien psychologique
@@ -30,8 +27,9 @@
                     <p>En évaluant ensemble votre demande, nous établirons s’il s’agit d’un accompagnement psychologique
                         de
                         soutien ponctuel ou d’un accompagnement psychothérapeutique plus long.</p></div>
-                <div class="round-img soutien"></div>
             </div>
+
+            <div class="round-img soutien"></div>
 
             <div class="content-block d-flex justify-content-center align-items-center gap-5">
                 <div>
@@ -69,10 +67,10 @@
                         </p>
                     </details>
                 </div>
-
-                <div class="round-img eft"></div>
-
             </div>
+
+            <div class="round-img eft"></div>
+
 
             <div class="content-block d-flex justify-content-center align-items-center gap-5">
                 <div>
@@ -92,8 +90,10 @@
                         effectué ensemble.
                     </p></div>
 
-                <div class="round-img soins"></div>
             </div>
+
+            <div class="round-img soins"></div>
+
 
         </div>
 
@@ -119,6 +119,7 @@
 
     .content {
       width: 70%;
+      max-width: 1200px;
       margin: 0 auto;
       @include breakpoint.down('md') {
         width: 100%;
@@ -135,6 +136,12 @@
     }
 
     .content-section {
+      text-align: justify;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
       .content-block {
         margin-bottom: 20px;
 
@@ -162,9 +169,11 @@
   }
 
   .round-img {
+    margin-bottom: 1rem;
+    border-radius: 6px;
     height: 300px;
-    width: 600px;
-    border-radius: 50%;
+    width: 100%;
+    max-width: 600px;
     background-size: cover;
     background-position: center;
   }
